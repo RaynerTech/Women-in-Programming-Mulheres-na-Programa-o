@@ -1,0 +1,707 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+html,body{
+    height:100%;
+}
+
+html,body{
+    height:100%;
+}
+
+div.clear{
+    clear: both;
+}
+
+.container{
+    max-width:1280px;
+    margin:0 auto;
+}
+
+header{
+    width:100%;
+    height:90vh;
+    min-height: 800px;
+    padding:40px 2%;
+    /*max-height:700px;*/
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat ;
+    background-image:url(../image/Curso-Minas-Programam.jpg);
+    font-weight: 300;
+}
+
+header .logo{
+    float:left;
+    width:180px;
+    height:80px;
+    background-image:url('../image/womans-hand-her-fist-raised-600w-509659870.jpg');
+    background-size:contain;
+    background-color:#ccc;
+    background-repeat: no-repeat;
+    background-color:transparent;
+
+}
+
+header,nav{
+    float:right;
+
+}
+
+.mobile-menu{
+    cursor: pointer;
+    display:none;
+    width:40px;
+    height:40px;
+    background-image:url('../image/menu.png');
+    background-size:100% 100%;
+}
+/*
+.mobile-menu:hover ul{
+    display:block;
+}
+*/
+
+.mobile-menu ul li :hover{
+    background-color:rgb(230,230,230);
+    color:black;
+}
+
+.mobile-menu ul{
+    display:none;
+    background-color:rgba(20, 20, 20, 0.8);
+    position:absolute;
+    width:100%;
+    left:0;
+    top:80px;
+    padding:20px 0;
+    list-style-type:none;
+    text-align:center;
+}
+
+.mobile-menu ul li{
+    padding:8px 0;
+    border-bottom:1px solid black;
+}
+
+.mobile-menu ul li a {
+    color:white;
+    text-decoration:none;
+}
+
+.desktop-menu ul{
+    list-style-type:none;
+}
+
+.desktop-menu li{
+    float:left;
+    padding:0 30px;
+    background-color:#8c0094;
+}
+
+ .desktop-menu li a {
+    text-decoration:none;
+    color:white;
+    font-size:18px;
+}
+
+.chamada1{
+    float:right;
+    margin:140px 150px;
+}
+
+.chamada1{
+    max-width:680px;
+    font-size:35px;
+    color:grey;
+    font-weight:normal;
+    background-color:rgba(56, 5, 41, 0.5);
+}
+
+.chamada1 h2{
+    font-weight:bold;
+    font-size:40px;
+    padding:0 0px;
+    color:white;
+}
+
+
+.chamada1 p{
+    color:white;
+    font-size:20px;
+    margin-top:10px;
+}
+
+.section1{
+    width:100%;
+    background-color:#8c0094;
+    padding:0 2%;
+}
+
+.section1 .container{
+    max-width:1000px;
+    height:calc(100% + 30px);
+}
+
+.texto{
+    float:left;
+    width:50%;
+    position:relative;
+    left:45px;
+    color:white;
+    padding-left:80px;
+    margin-top:60px;
+
+}
+
+.texto h2{
+    font-size:26px;
+}
+
+.texto p{
+    margin-top:20px;
+    font-size:13px;
+   
+}
+
+.texto ul{
+    font-size:15px;
+    list-style-position:outside;
+    padding:15px;
+}
+
+.texto ul li{
+    float:left;
+    width:100%;
+}
+
+.btn1-texto{
+    background-color:black;
+    font-size:14px;
+    margin-top:35px;
+    width:165px;
+    height:44px;
+    color:white;
+    cursor:pointer;
+    text-align:center;
+    line-height:40px;
+    border-radius:30px;
+}
+
+.device-sessao1{
+    float:left;
+    width:50%;
+    position:relative;
+    top:-30px;
+    height:420px;
+    background-image:url('../image/device.png');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+
+.section2{
+    padding-left:2%;
+    padding-right:2%;
+    background-color:white;
+    text-align:center;
+}
+
+.section2 .container{
+    max-width:1000px;
+}
+
+.section2 h2{
+    color:#472663;
+    font-size:25px;
+    position:relative;
+    top:20px;
+    font-weight: 300;
+}
+
+.section2 p{
+    position:relative;
+    top:25px;
+    margin-top:30px;
+    max-width:900px;
+    display:inline-block;
+}
+
+.section2 img{
+    position:relative;
+    top:70px;
+    width:100%;
+    margin-top:40px;
+}
+
+.section3{
+    width:100%;
+
+}
+
+.sec1{
+    float:left;
+    width:50%;
+    padding: 140px 0 90px 0;
+    background-color:#C50B83;
+}
+
+.wraper-sec1{
+    max-width:600px;
+    float: right;
+    padding: 0 30px;
+}
+
+.sec1 h2{
+    font-weight:bold;
+    font-style:italic;
+    font-size:23px;
+   
+}
+
+.sec1 p{
+    font-size:16px;
+    margin-top:10px;
+    line-height:35px;
+    
+}
+
+.sec2{
+    float:left;
+    width:50%;
+    padding:140px 0 90px 0;
+    background:white;
+}
+
+.scroll{
+    max-width:600px;
+    padding-left:10px;
+    overflow:hidden;    
+}
+
+.wraper-scroll{
+    width:100%;
+}
+
+.nomes{
+    float:left;
+    width:100%;
+    padding:0 30px
+    
+}
+
+.titulo{
+    float:left;
+    width:100%;
+}
+
+.wraper-titulo{
+   
+    float:left;
+}
+
+.titulo h2{
+
+    padding-right:20px;
+}
+
+.titulo .img-autor{
+    float:left;
+    width:60px;
+    height:60px;
+    position:relative;
+    background-image:url('../image/adaa.jpg');
+    background-size:100% 100%;
+    border-radius:30px;
+    background-color:grey;
+}
+
+.texto-autor{
+    float:left;
+    width:100%;
+    margin-top:10px;
+}
+
+.texto-autor p{
+    color:#232323;
+    font-size:16px;
+}
+
+.slider-bullets{
+    width:100%;
+    float:left;
+    padding-left:40px;
+    margin-top:10px;
+}
+
+.slider-bullets span{
+    width:16px;
+    height:16px;
+    float:left;
+    margin-right:8px;
+    border-radius:8px;
+    background-color:rgb(200, 200, 200);
+}
+
+ .section4{
+    background-color:#8c0094;
+    padding:100px 0;
+    position:relative;
+    top:-22px;
+}
+
+.form{
+    float:left;
+    width:50%;
+    color:white;
+    padding-left:10px;
+}
+
+.form h2{
+    font-size:23px;
+    font-weight:300;
+}
+
+.form p{
+    font-size:15px;
+    font-weight:300;
+    max-width: 400px;
+    padding-right:10px;
+}
+
+.form form{
+    margin-top:15px;
+}
+
+.form form input[type=text]{
+    width:90%;
+    max-width:480px;
+    margin-top:5px;
+    height:58px;
+    padding-left:8px;
+    line-height:58px;
+    border:1px solid rgb(200, 200, 200);
+}
+
+.form form textarea{
+    width:90%;
+    margin-top:8px;
+    max-width:480px;
+    border:1px solid rgb(200, 200, 200);
+    padding:15px;
+    height:160px;
+}
+
+.form form input[type=submit]{
+    background-color:black;
+    font-size:14px;
+    margin-top:35px;
+    width:165px;
+    height:44px;
+    color:white;
+    cursor:pointer;
+    border-radius:30px;
+    transition: 2s;
+}
+
+.form form input[type=submit]:hover{
+    background-color:white;
+    color:black;
+}
+
+.map-wraper{
+    float:left;
+    width:50%;
+    padding:0 10px;
+    color:white;
+}
+
+.map-wraper h2{
+    font-size:23px;
+    font-weight:300;
+}
+
+.map-wraper3{
+    margin-top:10px;
+    width:100%;
+    max-width:480px;
+    position:relative;
+}
+
+.map-wraper2{
+    position:absolute;
+    left:0;
+    width:100%;
+    padding-top:100%;   
+}
+
+.map{
+    left:0;
+    top:0;
+    background:white;
+    position:absolute;
+    width:100%;
+    height:100%;
+    box-shadow: 7px 5px 5px 5px   #10011d;
+    border:5px solid #472663;
+    
+}
+
+.pe{
+    position:relative;
+    top:-22px;
+}
+
+footer{  
+    background:black;  
+    
+}
+
+footer p:nth-of-type(1){
+    float:left;
+}
+
+footer p:nth-of-type(2){
+    float:right;
+}
+
+footer .container{
+    width:100%;
+    height:100px;
+    background-image:url('../image/pride-gradient-photoshop-gradients.jpg');
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size:100% 100%;
+}
+
+.fim{
+    background:black;
+    width:100%;
+    padding:15px 0;
+    color:white;
+}
+
+.fim h5{
+    white-space: nowrap;
+    white-space:pre;
+    display:inline-block;
+}
+
+@media screen and (max-width:830px){
+       
+    .chamada1{
+    max-width:none;
+    width:100px;
+    text-align:center;
+    float:none;
+    margin: 170px 0;
+    }
+
+    .chamada1{
+        max-width:none;
+        width:100%;
+        text-align:center;
+        font-size:30px;
+        color:white;
+        font-weight:normal;
+    }
+
+    .chamada1 h2{
+        font-weight:300;
+        font-size:30px;
+        padding:0 0px;
+        color:white;
+    }
+
+    .chamada1 p{
+        font-size:20px;
+        color:white;
+    }
+
+    .section4{
+        background-color:#8c0094;
+        padding:100px 0;
+        position:relative;
+        top:-78px;
+    }
+
+
+}
+
+@media screen and (max-width: 768px){
+
+    header{
+        width:100%;
+        height:auto;
+        min-height:90vh;
+        padding:40px 2%;
+    }
+    nav.desktop-menu{
+        display:none;
+    }
+
+    nav.mobile-menu{
+        display:block;
+    }
+
+ 
+
+    .section1{
+        padding:40px 2%;
+        height:auto;
+        text-align:center;
+    }
+    .texto{
+        float:none;
+        margin-top:0;
+        padding-left:0;
+        position:static;
+        float:none;
+        display:inline-block;
+    }
+
+    .texto h2{
+        margin-top:40px;
+    }
+
+    .texto ul{
+        margin:20px;
+        display:inline-block;
+        width:auto;
+    }
+
+    .texto ul li{
+        float:none;
+        text-align:left;
+    }
+
+    .btn1-texto{
+        display:inline-block;
+    }
+
+    .device-sessao1{
+        display:none;
+    }
+
+    .section2{
+        padding:40px 2%;
+    }
+
+    .section4 .container{
+        text-align:center;
+    }
+
+    .form{
+        width:100%;
+        float:none;
+        width:100%;
+    }
+
+    .form p{
+        display:inline-block;
+    }
+
+    .map-wraper{
+        width:100%;
+        float:none;
+        padding:0 4%;
+        margin-top:20px;
+    }
+
+    .map-wraper3{
+        margin-top:10px;
+        width:100%;
+        padding-top:100%;
+        display:inline-block;
+        max-width:none;
+        position:relative;
+        
+    }
+    
+    .map-wraper2{
+        position:absolute;
+        left:0;
+        top:0;
+        width:100%;
+        height:100%;
+        padding-top:0;   
+    }
+ 
+}
+
+
+
+
+@media screen and (max-width: 580px){
+    .sec1{
+        width:100%;
+        padding:60px 0;
+    }
+
+    .sec2{
+        width:100%;
+        padding:40px 0;
+    }
+
+    .section2 img{
+       
+        top:16px;
+        margin-top:20px;
+    }
+
+    .section2 img{
+        top:70px;
+         margin-top:20px;
+    }
+
+    .section4{
+        background-color:#8c0094;
+        padding:100px 0;
+        position:relative;
+        top:-30px;
+    }
+
+    .pe{
+        text-align:center;
+    }
+    
+    footer{  
+        background:black;  
+        
+    }
+    
+    footer p:nth-of-type(1){
+        float:none;
+    }
+    
+    footer p:nth-of-type(2){
+        float:none;
+        margin-top:8px;
+    }
+    
+    footer .container{
+        width:100%;
+        height:100px;
+        background-image:url('../image/pride-gradient-photoshop-gradients.jpg');
+        background-repeat: no-repeat;
+        background-position: cover;
+        background-size:100% 100%;
+    }
+    
+    .fim{
+        background:black;
+        width:100%;
+        padding:15px 0;
+        color:white;
+    }
+    
+    
+    
+}
+
+
+
